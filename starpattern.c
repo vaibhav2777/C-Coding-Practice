@@ -1,10 +1,9 @@
-/* Take input from the user and ask user to choose 0 for triangular star pattern and 1 for reversed triangular star pattern
+/* Take input from the user and ask user to choose 1 for triangular star pattern and 2 for reversed triangular star pattern
 Then print the pattern accordingly
 *
 **
 ***
 **** -> Triangular star pattern
-
 
 *****
 ****
