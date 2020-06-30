@@ -1,7 +1,6 @@
-#include<stdio.h>
-#include<string.h>
-union student
-{
+#include <stdio.h>
+#include <string.h>
+union student {
     int id;
     int marks;
     char fav_char;
@@ -9,24 +8,24 @@ union student
 };
 
 int main()
-{   
+{
     union student s1;
-    s1.id= 1;
-    s1.marks=84;
-    s1.fav_char='u';
-    strcpy(s1.name,"Harry");
+    s1.id = 1;
+    s1.marks = 84;
+    s1.fav_char = 'u';
+    strcpy(s1.name, "Harry");
 
-/*  s1.id= 1;
+    /*  s1.id= 1;
     s1.marks=84;
     strcpy(s1.name,"Harry");
     s1.fav_char='u';
 
     OUTPUT-> u
-*/    
+*/
 
-    printf("ID = %d\n",s1.id);
-    printf("Marks = %d\n",s1.marks);
-    printf("Fav_char = %c\n",s1.fav_char);
-    printf("Name = %s\n",s1.name);
+    printf("ID = %d\n", s1.id);
+    printf("Marks = %d\n", s1.marks);
+    printf("Fav_char = %c\n", s1.fav_char);
+    printf("Name = %s\n", s1.name);
     return 0;
 }
