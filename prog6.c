@@ -1,9 +1,8 @@
 #include <stdio.h>
 struct driver
 {
-    char name[100];
+    char name[100], route[100];
     int dlno, kms;
-    char route[100];
 
 } d1, d2, d3;
 int main()
