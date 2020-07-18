@@ -9,6 +9,6 @@ int generateRandomNumber(int n)
 }
 int main()
 {
-    printf("The Random Number between 0 to 5 is %d\n", generateRandomNumber(5));
+    printf("The Random Number between 0 to 100 is %d\n", generateRandomNumber(100));
     return 0;
 }
