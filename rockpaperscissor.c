@@ -48,8 +48,8 @@ int main()
     ;
     char dict[] = {'r', 'p', 's'};
     printf("Welcome to the Rock, Paper, Scissors\n");
-    printf("Enter Your Name: ");
-    scanf("%s", &name);
+    printf("Enter Your Name:");
+    scanf("%s", name);
 
     for (int i = 0; i < 1; i++)
     {
